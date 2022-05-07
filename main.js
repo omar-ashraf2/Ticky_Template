@@ -15,10 +15,11 @@ close.onclick = function () {
 document.onkeyup = function (e) {
   if (e.key === "Escape") {
     megaOpen.classList.remove("open");
+    close.style.opacity = "0";
   }
 };
 
-let countDown = new Date("Dec 31, 2021 23:59:59").getTime();
+let countDown = new Date("Dec 31, 2022 23:59:59").getTime();
 
 let counter = setInterval(() => {
   let dateNow = new Date().getTime();
