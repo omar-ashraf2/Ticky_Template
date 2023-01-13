@@ -19,7 +19,7 @@ document.onkeyup = function (e) {
   }
 };
 
-let countDown = new Date("Dec 31, 2022 23:59:59").getTime();
+let countDown = new Date("Dec 31, 2023 23:59:59").getTime();
 
 let counter = setInterval(() => {
   let dateNow = new Date().getTime();
